@@ -7,7 +7,7 @@ body {
     color: #333;
     background: 
         linear-gradient(rgba(48, 34, 45, 0.5), #f756563a), /* Capa de color con opacidad */
-        url('/assets/fondo.jpg'); /* Imagen de fondo */
+        url('assets/fondo.jpg'); /* Imagen de fondo */
     background-size: cover; /* Para que la imagen cubra toda la pantalla */
     background-position: center; /* Centrar la imagen */
     background-attachment: fixed; /* Imagen fija al hacer scroll */
