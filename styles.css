@@ -1,0 +1,162 @@
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: 
+        linear-gradient(rgba(48, 34, 45, 0.5), #f756563a), /* Capa de color con opacidad */
+        url('/assets/fondo.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Para que la imagen cubra toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    background-attachment: fixed; /* Imagen fija al hacer scroll */
+}
+
+/* Encabezado */
+header {
+    background: #8b2727;
+    /* Morado claro */
+    color: white;
+    padding: 30px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra más sutil */
+    text-align: center;
+    /* Centrar contenido */
+}
+
+header img {
+    max-height: 150px;
+    /* Responsivo */
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+header img:hover {
+    transform: scale(1.09);
+    transition: transform 0.3s ease-in-out;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    /* Sin puntos */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Alineación horizontal */
+    gap: 20px;
+    /* Espaciado */
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #d34848;
+    /* Efecto hover */
+}
+
+/* Secciones */
+section {
+    padding: 40px 150px;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+section h2 {
+    color: #272727;
+    /* Morado oscuro */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Sección Desarrollo */
+.desarrollo {
+    background-color: #8b2727;
+    /* Fondo suave */
+    padding: 40px 0;
+    /* Ajuste de padding */
+    width: 100vw;
+    /* Asegura que ocupe todo el ancho */
+    box-shadow: none;
+    /* Opcional: elimina la sombra si no se necesita */
+    position: relative;
+}
+
+.desarrollo .container {
+    width: 100%;
+    /* Asegura que el contenedor ocupe todo el ancho */
+    padding: 0 20px;
+    /* Espaciado a los lados */
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte el tamaño */
+}
+
+/* Estilo para el contenido dentro de la sección desarrollo */
+.desarrollo h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* Centra el título */
+}
+
+.desarrollo p {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    /* Centra el texto */
+}
+
+
+/* Enlaces */
+a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+/* Pie de página */
+footer {
+    background: #8b2727;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 40px;
+    /* Espacio extra */
+}
+
+footer p {
+    margin: 0;
+}
